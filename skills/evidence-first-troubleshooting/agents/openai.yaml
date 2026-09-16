@@ -1,0 +1,4 @@
+interface:
+  display_name: "Evidence-First Troubleshooting"
+  short_description: "Diagnose failures from logs and reproducible evidence"
+  default_prompt: "Diagnose this failure by identifying the failing component and validating each proposed cause against observable evidence."

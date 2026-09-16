@@ -7,6 +7,7 @@ Reusable Agent Skills for Codex and compatible coding agents.
 | Skill | Purpose |
 | --- | --- |
 | [`evidence-first-troubleshooting`](skills/evidence-first-troubleshooting) | Diagnose failures by locating and validating the first break in the execution path. |
+| [`minimal-change-engineering`](skills/minimal-change-engineering) | Implement focused code changes with minimal scope and behavior-driven verification. |
 
 ## Install
 
@@ -14,7 +15,7 @@ Ask Codex to install a skill from this repository:
 
 ```text
 Use skill-installer to install 7Gosts/agent-skills from
-skills/evidence-first-troubleshooting.
+skills/<skill-name>.
 ```
 
 Each skill is self-contained under `skills/<skill-name>/` and includes a `SKILL.md` entrypoint.

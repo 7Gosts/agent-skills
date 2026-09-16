@@ -1,0 +1,4 @@
+interface:
+  display_name: "Minimal-Change Engineering"
+  short_description: "Make focused changes with behavior-driven verification"
+  default_prompt: "Implement this change by tracing the existing behavior, minimizing scope, preserving user work, and verifying observable outcomes."
